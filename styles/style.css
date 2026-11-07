@@ -1,1 +1,88 @@
+
 /* место для вашего кода */
+
+.header {
+    height: 293px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    font-size: 18px;
+}
+
+.logo-img {
+    width: 148px;
+    height: 105px;
+}
+
+/* .cover {
+    width: 100%;
+    height: 757px;
+    background-image: url(../images/cover.jpg);
+    padding: 50px;
+    .title {
+        display: grid;
+    }
+    .description {
+        display: flex;
+    }
+}
+
+.lots {
+    height: 723px;
+    margin: 24px;
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 25px;
+        .card {
+            align-content:space-between;
+        }
+        .card-film {
+             background-image: url(../images/card-lot-01.jpg);
+        }
+        .card-book {
+            background-image: url(../images/card-lot-02.jpg);
+        }
+
+        .card-painting {
+            background-image: url(../images/card-lot-03.jpg);
+        }
+    }
+}
+
+.about {
+    margin: 24px;
+    display: grid;
+    grid-template-columns: 240px 693px;
+    grid-template-columns: 240px 312px;
+    column-gap: 72px;
+    .logo-column {
+        background-color: black;
+        width: 240px;
+        height: 240px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logo-about {
+            width: 148px;
+            height: 114px;
+        }
+    }
+}
+
+
+.footer {
+    height: 180px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    .socials {
+        .icon {
+            width: 48px;
+            height: 48px;
+        }
+    }
+} */
