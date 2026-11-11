@@ -24,7 +24,6 @@
 
 .header__link,
 .address a {
-    color: inherit;
     text-decoration: underline;
     text-underline-offset: 4px;
 }
@@ -34,19 +33,14 @@
 }
 
 .header__logo {
-    display: block;
     width: 148px;
 }
 
 .header__logo-image {
-    display: block;
     width: 100%;
 }
 
 .address {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     font-size: 18px;
     font-style: normal;
     line-height: 135%;
@@ -77,11 +71,13 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 32px;
-    box-sizing: border-box;
     min-height: 757px;
     padding: 165px 50px 50px;
     color: #fff;
-    background: url("../images/cover.jpg") center / cover no-repeat;
+    background-image: url("../images/cover.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .overlay {
@@ -101,10 +97,6 @@
     letter-spacing: 30%;
     text-transform: uppercase;
     z-index: 1;
-}
-
-.aligned-text {
-    display: block;
 }
 
 .aligned-text_left {
@@ -139,7 +131,6 @@
     min-width: 256px;
     padding: 11px 24px;
     color: inherit;
-    font: inherit;
     font-size: 22px;
     font-weight: 500;
     text-transform: uppercase;
@@ -160,8 +151,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
-    margin: 0;
-    padding: 0;
     list-style: none;
 }
 
@@ -183,7 +172,6 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 16px;
-    box-sizing: border-box;
     height: 100%;
     padding: 48px 40px;
     background-color: #333;
@@ -258,7 +246,6 @@
 .about__title {
     margin: 100px 0;
     font-size: 40px;
-    line-height: 117%;
     text-transform: uppercase;
 }
 
